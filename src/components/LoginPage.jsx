@@ -10,7 +10,6 @@ const LoginPage = ({ onSwitch }) => {
   const handleLogin = e => {
     e.preventDefault();
 
-    // Email validation
     const validateEmail = email => {
       const re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
       return re.test(email);
